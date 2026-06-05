@@ -56,17 +56,20 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="relative h-[360px] w-full max-w-sm sm:h-[460px] lg:h-[560px] lg:max-w-lg">
-          <div className="absolute inset-0 rounded-full bg-cyan-400/20 blur-3xl" />
+<div className="group relative w-full max-w-md">
+  <div className="absolute -inset-3 rounded-[2rem] bg-cyan-400/20 blur-3xl transition-all duration-500 group-hover:bg-cyan-400/35" />
 
-          <Image
-            src="/images/creator.png"
-            alt="CHEST_YEAHMANN creator avatar"
-            fill
-            priority
-            className="object-contain drop-shadow-[0_0_45px_rgba(34,211,238,0.45)]"
-          />
-        </div>
+  <div className="relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 p-4 backdrop-blur-xl transition-all duration-500 group-hover:-translate-y-2 group-hover:border-cyan-300/50 group-hover:shadow-[0_0_60px_rgba(34,211,238,0.35)]">
+    <Image
+      src="/images/creator.png"
+      alt="CHEST_YEAHMANN creator avatar"
+      width={700}
+      height={700}
+      priority
+      className="rounded-[1.5rem] object-contain transition-transform duration-700 group-hover:scale-105"
+    />
+  </div>
+</div>
       </div>
     </section>
   );
