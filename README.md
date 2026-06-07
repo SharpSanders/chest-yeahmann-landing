@@ -1,37 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CHEST_YEAHMANN Landing Page
 
-## Getting Started
+A modern creator landing page built for the CHEST_YEAHMANN brand.
 
-First, run the development server:
+## Overview
+
+CHEST_YEAHMANN Landing is a responsive creator hub designed to showcase:
+
+* Live streams
+* Content creation
+* Social platforms
+* Community links
+* Future merchandise and creator offerings
+
+The project focuses on a dark cinematic gaming aesthetic inspired by modern creator brands and GTA-style visuals.
+
+## Features
+
+* Responsive mobile-first design
+* Full-screen hero section
+* Creator branding and call-to-actions
+* Optimized image loading with Next.js
+* TypeScript support
+* Tailwind CSS styling
+* Fast performance and SEO-friendly architecture
+
+## Tech Stack
+
+* Next.js 15
+* React 19
+* TypeScript
+* Tailwind CSS
+* ESLint
+
+## Project Structure
+
+```text
+app/
+components/
+public/
+```
+
+## Local Development
+
+Clone the repository:
+
+```bash
+git clone https://github.com/SharpSanders/chest-yeahmann-landing.git
+```
+
+Navigate into the project:
+
+```bash
+cd chest-yeahmann-landing
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Roadmap
 
-## Learn More
+### Phase 1
 
-To learn more about Next.js, take a look at the following resources:
+* Hero section
+* About section
+* Social links
+* Creator branding
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Phase 2
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* Featured clips showcase
+* Stream schedule
+* Discord integration
+* Contact section
 
-## Deploy on Vercel
+### Phase 3
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* Dynamic content management
+* Creator dashboard
+* Community features
+* Analytics integrations
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# chest-yeahmann-landing
+## Author
+
+**Trevyn Sanders**
+
+GitHub: https://github.com/SharpSanders
+
+Creator Brand: CHEST_YEAHMANN
